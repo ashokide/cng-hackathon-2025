@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-05-21 22:58:56">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>CDW_CNG_ProximaOps_v1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>cb594a9783212e1842e710c5eeaad3a4</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>91ac0e5783612e1842e710c5eeaad339</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_1a51217283e1eed442e710c5eeaad3b1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter"><sys_ws_query_parameter action="INSERT_OR_UPDATE"><example_value/><name>sys_id</name><required>false</required><short_description/><sys_class_name>sys_ws_query_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-20 06:32:55</sys_created_on><sys_id>1a51217283e1eed442e710c5eeaad3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_id</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ws_query_parameter_1a51217283e1eed442e710c5eeaad3b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-20 06:32:55</sys_updated_on><web_service_definition display_value="AI summarizer">4e4e59728361eed442e710c5eeaad3eb</web_service_definition></sys_ws_query_parameter></record_update>]]></payload>
+<payload_hash>-1017436562</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>11ac465383a12e1842e710c5eeaad3a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f507b7b90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table/>
+<target_name>sys_id</target_name>
+<type>Scripted REST Query Parameter</type>
+<update_domain>global</update_domain>
+<update_guid>cd0a8edb57212e182f7184943c2c8194</update_guid>
+<update_guid_history>cd0a8edb57212e182f7184943c2c8194:-1017436562,d86121bab7a1eed4a1924b043173fbd8:-1017436562</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_5a0e528f8329a61842e710c5eeaad3f3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="09ff3d105f231000b12e3572f2b4775d" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;estimate_points_project&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Estimate Points&lt;/name&gt;&lt;onclick&gt;estimateProjectStories();&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function estimateProjectStories() {
+
+
+    var projectSysId = current.sys_id; // 'current' refers to the current record on the form
+    var stories = new GlideRecord('rm_story'); // Or your story table name
+    stories.addQuery('project', projectSysId); // Assuming 'project' is the reference field to Project
+    stories.query();
+
+    var estimatedCount = 0;
+    var failedCount = 0;
+    var messages = [];
+
+    if (!stories.hasNext()) {
+        gs.addInfoMessage('No stories found for estimation in this project.');
+        action.setRedirectURL(current); // Redirect back to the current record
+        return; // Exit the script
+    }
+
+    gs.addInfoMessage('Initiating story estimation for this project. Please wait...');
+
+    while (stories.next()) {
+        var storySysId = stories.sys_id.toString();
+        var number = stories.number.getDisplayValue();
+        var shortDescription = stories.short_description.getDisplayValue();
+        var description = stories.description.getDisplayValue();
+        var acceptanceCriteria = stories.acceptance_criteria.getDisplayValue();
+
+        var payload = {
+            Number: number,
+            Short_description: shortDescription,
+            Description: description,
+            Acceptance_Criteria: acceptanceCriteria
+        };
+
+        var payloadString = JSON.stringify(payload);
+
+        // Call the REST Message
+        var restMessage = new sn_ws.RESTMessageV2('Proxima Ops', 'Estimate Points Call');
+        restMessage.setRequestBody(payloadString);
+
+        var response = restMessage.execute();
+        var httpResponseStatus = response.getStatusCode();
+
+        if (httpResponseStatus == 200) {
+            var responseBody = response.getBody();
+            try {
+                var responseJSON = JSON.parse(responseBody);
+                var estimatedPoints = responseJSON["Predicted Hours"];
+
+                if (estimatedPoints) {
+                    // Update the story
+                    // Note: No need to re-query with current record in a loop, 'stories' GR is already on the correct record
+                    stories.setValue('story_points', estimatedPoints); // Replace 'u_estimated_points' with your actual field name
+                    stories.update(); // Update the current story in the loop
+                    estimatedCount++;
+                    messages.push('Story "' + shortDescription + '" updated with ' + estimatedPoints + ' points.');
+                } else {
+                    failedCount++;
+                    messages.push('Story "' + shortDescription + '": Estimation service returned no points.');
+                }
+            } catch (e) {
+                failedCount++;
+                messages.push('Story "' + shortDescription + '": Error parsing REST response: ' + e.getMessage());
+                gs.error('Error parsing REST response for story ' + shortDescription + ': ' + responseBody);
+            }
+        } else {
+            failedCount++;
+            messages.push('Story "' + shortDescription + '": REST call failed with status ' + httpResponseStatus + '.');
+            gs.error('REST call failed for story ' + shortDescription + ': ' + response.getBody());
+        }
+    }
+
+    // if (estimatedCount &gt; 0 || failedCount &gt; 0) {
+    //     gs.addInfoMessage('Estimation complete. Successfully estimated ' + estimatedCount + ' stories. Failed for ' + failedCount + ' stories. Details: ' + messages.join('; '));
+    // } else {
+    //     gs.addErrorMessage('An unexpected error occurred during estimation or no stories were processed.');
+    // }
+
+    action.setRedirectURL(current); // Redirect back to the current project record
+
+}
+
+estimateProjectStories();]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Rakhesh.Bowtham&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 05:36:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;09ff3d105f231000b12e3572f2b4775d&lt;/sys_domain&gt;&lt;sys_domain_path&gt;!!!/!!+/!!!/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5a0e528f8329a61842e710c5eeaad3f3&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;Estimate Points&lt;/sys_name&gt;&lt;sys_overrides display_value=""&gt;f166163a836d221842e710c5eeaad32a&lt;/sys_overrides&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_5a0e528f8329a61842e710c5eeaad3f3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Rakhesh.Bowtham&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 18:20:25&lt;/sys_updated_on&gt;&lt;table&gt;pm_project&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1792111759</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>15ac465383a12e1842e710c5eeaad3a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f50c4d390000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table>pm_project</table>
+<target_name>Estimate Points</target_name>
+<type>UI Action</type>
+<update_domain>09ff3d105f231000b12e3572f2b4775d</update_domain>
+<update_guid>d62b0a17d7612e18ab004f22db72de2d</update_guid>
+<update_guid_history>d62b0a17d7612e18ab004f22db72de2d:1792111759,86eccdd3e569aa183991e5ee19cfa891:1792111759,a65c8117df69aa18d1b3ff7277db481c:-657768791,01ebc193e769aa182ec58e2affa57185:-2127793099,39194193a029aa18d41b0ac9d57b87ed:812192193,75b5ff834d692a180405a41b797d6ca5:61977366,9005b743b0692a18cccbcca56b2172f7:281927958,3007af4f74e12a18d261a4e39e668afd:1330473839,6e5d1b4351612a18a1345b245a15c600:1898366407,dd337607ae61e618ae686890c6c9c3bd:-27978285,c3a23a8f6321e61813cc7751812035ac:258218968,cd703603c321e618d9d96d3cd24898cb:-1507395226,2460ba4bafeda6180435551048d72e54:-1847842608,7640f28b18eda618b62d237566dcd292:1470485792,3f7dea435eeda6187651a8d560f0f7ea:478851796,9a5de68b62ada618c6210af11d2d6c0f:1470485792,eae3e20bb1a9a6187f06153fa14479ea:-1847842608,1711a2c3fda9a618fed4cd4e861ad70f:-1507395226,9e0e528f6d29a618dda52c651df9a4f8:-607215916</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_ff85ea328361621842e710c5eeaad36b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message_function display_value="Estimate Points Call">5785663e8321621842e710c5eeaad325</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>Rakhesh.Bowtham</sys_created_by><sys_created_on>2025-05-20 11:32:15</sys_created_on><sys_id>ff85ea328361621842e710c5eeaad36b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_headers_ff85ea328361621842e710c5eeaad36b</sys_update_name><sys_updated_by>Rakhesh.Bowtham</sys_updated_by><sys_updated_on>2025-05-20 11:32:15</sys_updated_on><value>application/json</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>714294932</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>19ac465383a12e1842e710c5eeaad39f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f508ce770000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table/>
+<target_name>Content-Type</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>ae4a429fd6212e1806d61ba365813478</update_guid>
+<update_guid_history>ae4a429fd6212e1806d61ba365813478:714294932,4de5627228616218d6397d83ca4a45f0:584307031</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_1a14660b83a9a61842e710c5eeaad3ff</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="09ff3d105f231000b12e3572f2b4775d" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;estimate_points_project&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Suggest Story Points&lt;/name&gt;&lt;onclick&gt;estimateProjectStories();&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function estimateProjectStories() {
+
+    var number = current.number.getDisplayValue();
+    var shortDescription = current.short_description.getDisplayValue();
+    var description = current.description.getDisplayValue();
+    var acceptanceCriteria = current.acceptance_criteria.getDisplayValue();
+
+    var payload = {
+        Number: number,
+        Short_description: shortDescription,
+        Description: description,
+        Acceptance_Criteria: acceptanceCriteria
+    };
+
+    var payloadString = JSON.stringify(payload);
+
+    // Prepare and send the REST message
+    var restMessage = new sn_ws.RESTMessageV2('Proxima Ops', 'Estimate Points Call');
+    restMessage.setRequestBody(payloadString);
+
+    try {
+        var response = restMessage.execute();
+        var httpResponseStatus = response.getStatusCode();
+
+        if (httpResponseStatus == 200) {
+            var responseBody = response.getBody();
+            var responseJSON = JSON.parse(responseBody);
+            var estimatedPoints = responseJSON["Predicted Hours"];
+
+            if (estimatedPoints) {
+                gs.addInfoMessage("Suggested Story Points: " + estimatedPoints);
+            }
+        } else {
+            gs.addInfoMessage('REST call failed for story ' + shortDescription + ': ' + response.getBody());
+        }
+    } catch (e) {
+        gs.addInfoMessage('Error occurred during REST call: ' + e.message);
+    }
+
+    action.setRedirectURL(current); // Redirect back to the current record
+}
+
+estimateProjectStories();
+]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Rakhesh.Bowtham&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 06:02:54&lt;/sys_created_on&gt;&lt;sys_domain&gt;09ff3d105f231000b12e3572f2b4775d&lt;/sys_domain&gt;&lt;sys_domain_path&gt;!!!/!!+/!!!/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1a14660b83a9a61842e710c5eeaad3ff&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;Suggest Story Points&lt;/sys_name&gt;&lt;sys_overrides display_value=""&gt;f166163a836d221842e710c5eeaad32a&lt;/sys_overrides&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_1a14660b83a9a61842e710c5eeaad3ff&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Rakhesh.Bowtham&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 18:15:14&lt;/sys_updated_on&gt;&lt;table&gt;rm_story&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>19218680</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>51ac465383a12e1842e710c5eeaad3a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f50c114f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table>rm_story</table>
+<target_name>Suggest Story Points</target_name>
+<type>UI Action</type>
+<update_domain>09ff3d105f231000b12e3572f2b4775d</update_domain>
+<update_guid>aa1b4e17ec612e18d0152c45789213a6</update_guid>
+<update_guid_history>aa1b4e17ec612e18d0152c45789213a6:19218680,3dbb01937269aa18cb582c5ec7f7e476:19218680,6cda0d531269aa18ae38ff64bbc4e6c1:-523655976,d2ba89539469aa18e1a688c3977cdd78:-1930608427,5f88cd539b29aa18c58560bf577388c7:-637941152,db9277cb1e292a189dcdadcf9efd772d:40353563,f66567cb95e12a187e0acce6536c734e:238985260,17e32b4bf8e12a189248e252f2252d75:-918761428,6f83274bf2e12a18e376a0fe7a53572a:1539392806,6723634b47e12a18663e2c72fbc4b5c9:856968416,1452e30771e12a182146ab639ade584a:1105624642,26002b87aea12a18a926511fd8f00fe3:786398841,72bedb0f38612a183ff9113add0c191e:-1755983477,3ca4720f9a61e6188fa0637bb6069d11:767456531,e34f6ec3aceda6187c871e1f3429c1f3:709338506,6de6e64334e9a6184e53e23e3098f18a:-1380983830,9ac62ec35ce9a6188326650286e96cf0:-338224634,8f26ea432ce9a618293c7cf2db6d19dc:-960447407,beb5e6c342e9a618fbcad40c477da061:1146696268,36f4ae0f85a9a61877e975126acb83a0:-1222951369,de14a60b63a9a618caeaa14ae5926900:-1847842608</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_582606fa8365221842e710c5eeaad368</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Estimate Points</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Proxima Ops  [ Estimate Points ]</qualified_name><rest_endpoint>test</rest_endpoint><rest_message display_value="Proxima Ops ">7be5c2fa8365221842e710c5eeaad356</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>Rakhesh.Bowtham</sys_created_by><sys_created_on>2025-05-20 09:13:28</sys_created_on><sys_id>582606fa8365221842e710c5eeaad368</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Estimate Points</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_582606fa8365221842e710c5eeaad368</sys_update_name><sys_updated_by>Rakhesh.Bowtham</sys_updated_by><sys_updated_on>2025-05-20 11:20:15</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-973933546</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>55ac465383a12e1842e710c5eeaad39f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f508ce9a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table/>
+<target_name>Estimate Points</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>664a429f8e212e18614b682415d1667b</update_guid>
+<update_guid_history>664a429f8e212e18614b682415d1667b:-973933546,1523663e6c216218b69767158cec9d98:-973933546,02464a72bda522182604012c5f7de0a5:1426873403,d82606face6522186e4a4c997aeb276c:-290347873</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_map_b94161fe8361eed442e710c5eeaad3f3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map"><sys_ws_query_parameter_map action="INSERT_OR_UPDATE"><sys_class_name>sys_ws_query_parameter_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-20 06:32:36</sys_created_on><sys_id>b94161fe8361eed442e710c5eeaad3f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>27316d7283e1eed442e710c5eeaad34d</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ws_query_parameter_map_b94161fe8361eed442e710c5eeaad3f3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-20 06:32:36</sys_updated_on><web_service_operation display_value="summarize">f67e55ba8361eed442e710c5eeaad3af</web_service_operation><web_service_query_parameter display_value="table">27316d7283e1eed442e710c5eeaad34d</web_service_query_parameter></sys_ws_query_parameter_map></record_update>]]></payload>
+<payload_hash>372228300</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>59ac465383a12e1842e710c5eeaad3a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f507b80e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table/>
+<target_name>27316d7283e1eed442e710c5eeaad34d</target_name>
+<type>Scripted REST Query Parameter Associatio</type>
+<update_domain>global</update_domain>
+<update_guid>cd0a8edbca212e18a9dac37c91c7c799</update_guid>
+<update_guid_history>cd0a8edbca212e18a9dac37c91c7c799:372228300,bb41a9be2ea1eed4fa3f331d2ea3264d:372228300</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_f67e55ba8361eed442e710c5eeaad3af</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;cf9d01d3e73003009d6247e603f6a990&lt;/enforce_acl&gt;&lt;http_method&gt;GET&lt;/http_method&gt;&lt;name&gt;summarize&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(request, response) {
+    try {
+        var table = request.queryParams.table;
+        var sys_id = request.queryParams.sys_id;
+
+        if (!table || !sys_id) {
+            response.setStatus(400);
+            return {
+                error: "Missing required parameters: 'table' and 'sys_id'"
+            };
+        }
+
+        var attGR = new GlideRecord('sys_attachment');
+        attGR.addQuery('table_name', table);
+        attGR.addQuery('table_sys_id', sys_id);
+        attGR.query();
+
+        if (!attGR.next()) {
+            response.setStatus(404);
+            return {
+                error: "No attachments found on the record."
+            };
+        }
+
+        var fileName = attGR.getValue('file_name');
+        var fileExt = fileName.split('.').pop().toLowerCase();
+        var allowedTypes = ['txt', 'md','csv','json'];
+        if (!allowedTypes.includes(fileExt)) {
+            response.setStatus(415);
+            return {
+                error: "Only plain text files (.txt, .md) are supported for summarization."
+            };
+        }
+
+        var reader = new global.CustomAttachmentReader();
+        var rawText = reader.getAttachmentText(attGR.sys_id + '');
+        
+
+        if (!rawText) {
+            response.setStatus(400);
+            return {
+                error: "Failed to read attachment or attachment is empty."
+            };
+        }
+
+        // Azure OpenAI endpoint and API key — replace with your values
+        var openaiEndpoint = "https://rram-mav2w1aw-swedencentral.cognitiveservices.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview";
+        var openaiApiKey = "2WfUbRbYkRbF3e0QrzXsEYe641eTXXfyUOey1JI3fmH1HpDNeDvKJQQJ99BEACfhMk5XJ3w3AAAAACOGBUug";
+
+
+        var prompt = "Please summarize the following text in plain, professional English.\nGuidelines:\n- Keep the summary concise and easy to understand.\n- Do NOT include any symbols like *, #, -, or emojis.\n- Use complete sentences suitable for reading out loud.\n- Do not use bullet points or markdown formatting." + rawText;
+
+        var requestBody = JSON.stringify({
+            "messages": [{
+                    "role": "system",
+                    "content": "You are a helpful assistant who summarizes documents."
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            "temperature": 0.3,
+            "max_tokens": 500
+        });
+
+        var restMessage = new sn_ws.RESTMessageV2();
+        restMessage.setHttpMethod("POST");
+        restMessage.setEndpoint(openaiEndpoint);
+        restMessage.setRequestHeader("Content-Type", "application/json");
+        restMessage.setRequestHeader("api-key", openaiApiKey);
+        restMessage.setRequestBody(requestBody);
+
+        var summaryResponse = restMessage.execute();
+        var status = summaryResponse.getStatusCode();
+
+        if (status !== 200) {
+            gs.error("OpenAI summarization failed: " + summaryResponse.getBody());
+            response.setStatus(500);
+            return {
+                error: "Failed to get summary from Azure OpenAI."
+            };
+        }
+
+        var json = JSON.parse(summaryResponse.getBody());
+        var summary = json.choices &amp;&amp; json.choices[0] &amp;&amp; json.choices[0].message.content;
+
+        if (!summary) {
+            response.setStatus(500);
+            return {
+                error: "Empty summary received from OpenAI."
+            };
+        }
+
+        return {
+            success: true,
+            summary: summary
+        };
+
+    } catch (ex) {
+        gs.error("Error in REST API: " + ex.message);
+        response.setStatus(500);
+        return {
+            error: "Internal Server Error: " + ex.message
+        };
+    }
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/1090109/ai_summarizer/summarize&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/summarize&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;false&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-20 06:20:56&lt;/sys_created_on&gt;&lt;sys_id&gt;f67e55ba8361eed442e710c5eeaad3af&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;summarize&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_f67e55ba8361eed442e710c5eeaad3af&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 12:33:42&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="AI summarizer"&gt;4e4e59728361eed442e710c5eeaad3eb&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;f67e55ba8361eed442e710c5eeaad3af&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-20 06:20:55&lt;/sys_created_on&gt;&lt;sys_id&gt;2cae59728361eed442e710c5eeaad3f1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-20 06:20:55&lt;/sys_updated_on&gt;&lt;table&gt;sys_ws_operation&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-782759008</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>5dac465383a12e1842e710c5eeaad3a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f507b7700000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table/>
+<target_name>summarize</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>010ac25b93212e184b4cda5bd1110516</update_guid>
+<update_guid_history>010ac25b93212e184b4cda5bd1110516:-782759008,878df74b9f2d2a1807f08cb376c76638:-782759008,5079ce4b5861a61885a76b5d8af5bd13:1164173744,35c882071461a61897f1913c10f4823a:1212062287,0aa5064b0eed661896301f55ebec9da4:-815811705,266482471eed66180a497d68e841ee04:1344201014,9b3446c72eed661822325f284b045dd8:538894959,f1530a8354ed661835910ce994e0c8f7:1702881632,52624247c0ed6618927925f79225bd5c:1750385555,2eaf3d4f1cad661886c6ecddef3d0885:-544699131,ab6f7dcf1aad6618675d813461a844bf:-2019224141,39ee7dcba8ad661854abee36d3472a04:-399658452,88bef9c70aad66184f8fcdc4329c0144:-2104260893,572e758f4fad661801e3f894d19829b1:1151818214,559c758759ad6618d59c762ea5d1e79a:1597086244,f8b3b58b80a96618a1508ff8d373313c:1786167195,f1243f721d2da218ac6ffc6e8fc14aa8:35983019,7d15cbfec3e96218da9e248cfbcc55e9:1893815217,56bcaa7a6ba16218647f435cd081b73e:-612727768,c263a1321d25eed49201e4fb89966a86:221687484,1612617aafe1eed4bf94dd4e240f8505:889708544,78aed9faa061eed4e323c2e9c5170280:728194199</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_5785663e8321621842e710c5eeaad325</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content>{&#13;
+    "Number": "STRY00086324",&#13;
+    "Short_description": "CUSTOMER INTEGRATION - Infinite Electronics - Incident",&#13;
+    "Description": "As a System Administrator, I want an Incident Integration configured between Infinite Electronics and MyCDW instances, so that CDW resources are able to process Incidents to completion and update the customer's source record(s).\n\nName of Integration: Infinite Electronics\nPurpose of Integration: To send inbound &amp; outbound API calls between Infinite Electronics ServiceNow instance and the MyCDW ServiceNow instance for Incident records.\nSME: Bosco Sahayaraj\n\nNOTE: Already in Unifi",&#13;
+    "Acceptance_Criteria": "Questionnaire Doc URL: Infinite_Incident_Integration_Requirements_Questionnaire.xlsx\nProcess Map URL: Infinite_Incident_Integration Process Model.vsdx\nField Mapping Doc URL (To be completed by Dev): Infinite_Incident Field Mapping UAT.xlsx\n\nBUSINESS:\nAC1: As an Infinite Electronics Requester,\nWHEN I create an Incident in Infinite Electronics ServiceNow,\nTHEN an Incident is created in MyCDW ServiceNow and assigned to XXX Assignment Group.\n\nAC2: As a MyCDW Fulfiller,\nWhen new Infinite Electronics Incident is created,\nThen I am able to assign it to myself and update as I process to resolution.\n\nTECHNICAL:\nAC3 (Authentication Security): As a System Admin,\nWHEN the integration is configured,\nTHEN the service account will use OAUTH authentication\nAND enforce a 90-day password reset policy for security compliance.\n\nAC4 (Integration Setup): As a System Admin,\nWHEN I access the Unifi application in MyCDW,\nTHEN I will see a new Infinite Electronics Incident (Covius -JIRA - Incident) Integration\nAND it will allow bidirectional incident tracking to create, update, and resolve incidents in both systems.\n\nAC5 (Data Exchange): As a System Admin,\nWHEN an incident is exchanged between MyCDW and Infinite Electronics,\nTHEN the integration will process the necessary fields for incident synchronization,\nAND correlation values will be used to ensure data integrity between both systems.\n\nAC6 (Attachment Handling): As a System Admin,\nWHEN an incident includes an attachment,\nTHEN the integration will sync the attachment between the two systems,\nUNLESS specific exclusion criteria are met.\n\nAC7 (Incident Synchronization Rules): As a System Admin,\nWHEN an incident update occurs,\nTHEN the integration will only trigger updates based on predefined conditions (client is Infinite Electronics),\nAND updates will be sent and received only for incidents that meet the criteria for synchronization."&#13;
+}</content><function_name>Estimate Points Call</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Proxima Ops  [ Estimate Points Call ]</qualified_name><rest_endpoint>https://800c-61-12-33-162.ngrok-free.app/predict</rest_endpoint><rest_message display_value="Proxima Ops ">7be5c2fa8365221842e710c5eeaad356</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>Rakhesh.Bowtham</sys_created_by><sys_created_on>2025-05-20 11:32:33</sys_created_on><sys_id>5785663e8321621842e710c5eeaad325</sys_id><sys_mod_count>19</sys_mod_count><sys_name>Estimate Points Call</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_5785663e8321621842e710c5eeaad325</sys_update_name><sys_updated_by>Rakhesh.Bowtham</sys_updated_by><sys_updated_on>2025-05-21 18:11:57</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-305276592</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>91ac465383a12e1842e710c5eeaad39f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f508ce570000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table/>
+<target_name>Estimate Points Call</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>ee4a429f28212e18b2641730eae4da76</update_guid>
+<update_guid_history>ee4a429f28212e18b2641730eae4da76:-305276592,35fa0d53e369aa189515428682f21fc6:-305276592,e5f7855fb5e5aa186744bcdb2b0f00aa:248699476,1de7015ff3e5aa18349c6f622dab9255:-305276592,93b17707bb292a1815ce60d4e008dd27:1528319818,a975ebcbf3e12a189953a22b981e6787:248699476,3c05ebcb86e12a18b7b10c8490910580:-1328568678,08b4af8b26e12a18d0cebd56463b89be:248699476,30c22b0bb2e12a1804a20496170560e0:-1328568678,ca3267c7a4e12a189928dca7bfee9b40:248699476,e33027c75da12a185f9d9871ca2871a6:436200655,a08d1b43eb612a1839790cd532d9aa07:747344111,d70d57c7ca212a189d4d86f2a13b58f3:436200655,d5ec9b8721212a187ad939394cb2a894:-1998266593,9dcbeac336ada618460dcaed3ee56483:764672424,ababeacf286da61847df399423affe4c:-1388174839,21b06a8334a9a6189f20d88d76329085:764672424,a540a6831ba9a61898f977cc272fc764:-1592541019,bd7f5ecf7f69a61833574b699f031f28:247586095,f14d128fe029a618054e27ee3417ebe2:102811954,5df56272206162187b569bdc683a77f5:-845817841</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_map_686169b283e1eed442e710c5eeaad398</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map"><sys_ws_query_parameter_map action="INSERT_OR_UPDATE"><sys_class_name>sys_ws_query_parameter_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-20 06:33:02</sys_created_on><sys_id>686169b283e1eed442e710c5eeaad398</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1a51217283e1eed442e710c5eeaad3b1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ws_query_parameter_map_686169b283e1eed442e710c5eeaad398</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-20 06:33:02</sys_updated_on><web_service_operation display_value="summarize">f67e55ba8361eed442e710c5eeaad3af</web_service_operation><web_service_query_parameter display_value="sys_id">1a51217283e1eed442e710c5eeaad3b1</web_service_query_parameter></sys_ws_query_parameter_map></record_update>]]></payload>
+<payload_hash>-871552319</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>95ac465383a12e1842e710c5eeaad3a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f507b7d40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table/>
+<target_name>1a51217283e1eed442e710c5eeaad3b1</target_name>
+<type>Scripted REST Query Parameter Associatio</type>
+<update_domain>global</update_domain>
+<update_guid>c90a8edb94212e18034873868c6cf296</update_guid>
+<update_guid_history>c90a8edb94212e18034873868c6cf296:-871552319,0661a5f2a1e1eed470d2463b4029ca14:-871552319</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_definition_4e4e59728361eed442e710c5eeaad3eb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/1090109/ai_summarizer</base_uri><consumes>application/json,application/xml,text/xml</consumes><consumes_customized>false</consumes_customized><default_version>No active default version</default_version><doc_link/><enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl><is_versioned>false</is_versioned><name>AI summarizer</name><namespace>1090109</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>ai_summarizer</service_id><short_description/><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-20 06:20:06</sys_created_on><sys_id>4e4e59728361eed442e710c5eeaad3eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AI summarizer</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ws_definition_4e4e59728361eed442e710c5eeaad3eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-20 06:20:06</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+<payload_hash>1813729480</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>99ac465383a12e1842e710c5eeaad3a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f507b79c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table/>
+<target_name>AI summarizer</target_name>
+<type>Scripted REST API</type>
+<update_domain>global</update_domain>
+<update_guid>050a8edb4a212e18f71e6940078d7793</update_guid>
+<update_guid_history>050a8edb4a212e18f71e6940078d7793:1813729480,647ed93a2a61eed4f84c5dced8ffb7ef:1813729480</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_cf9d01d3e73003009d6247e603f6a990</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Default deny for external users.&lt;/description&gt;&lt;local_or_existing/&gt;&lt;name&gt;Scripted REST External Default&lt;/name&gt;&lt;operation display_value="execute"&gt;execute&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[answer = gs.hasRole("admin") || !gs.hasRole("snc_external");]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-08-30 18:13:35&lt;/sys_created_on&gt;&lt;sys_id&gt;cf9d01d3e73003009d6247e603f6a990&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Scripted REST External Default&lt;/sys_name&gt;&lt;sys_package display_value="Scripted REST APIs" source="com.glide.scripted_rest_services"&gt;2d9bbfe2f832021008dd9cfea425ac1a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_cf9d01d3e73003009d6247e603f6a990&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-09-08 21:52:35&lt;/sys_updated_on&gt;&lt;type display_value="REST_Endpoint"&gt;REST_Endpoint&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1612097401</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>9dac465383a12e1842e710c5eeaad39f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f507ba820000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table>Scripted REST External Default</table>
+<target_name>Scripted REST External Default</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>d90a8edb97212e18d68a561e86977b9d</update_guid>
+<update_guid_history>d90a8edb97212e18d68a561e86977b9d:1612097401,70e94e9bbd212e18ae4e0fba12dbc14a:1612097401</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_27316d7283e1eed442e710c5eeaad34d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter"><sys_ws_query_parameter action="INSERT_OR_UPDATE"><example_value/><name>table</name><required>false</required><short_description/><sys_class_name>sys_ws_query_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-20 06:32:28</sys_created_on><sys_id>27316d7283e1eed442e710c5eeaad34d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>table</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ws_query_parameter_27316d7283e1eed442e710c5eeaad34d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-20 06:32:28</sys_updated_on><web_service_definition display_value="AI summarizer">4e4e59728361eed442e710c5eeaad3eb</web_service_definition></sys_ws_query_parameter></record_update>]]></payload>
+<payload_hash>1129962122</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>d1ac465383a12e1842e710c5eeaad3a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f507b7f00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table/>
+<target_name>table</target_name>
+<type>Scripted REST Query Parameter</type>
+<update_domain>global</update_domain>
+<update_guid>450a8edb4d212e18f0869a4c2844af98</update_guid>
+<update_guid_history>450a8edb4d212e18f0869a4c2844af98:1129962122,6541e172f9e1eed432a97b79ce4eeba5:1129962122</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_script_9d6ed9ee83a56ad442e710c5eeaad3c7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;ignore_in_now_experience&gt;false&lt;/ignore_in_now_experience&gt;&lt;name&gt;HeyFridayVoiceAssistant&lt;/name&gt;&lt;script&gt;&lt;![CDATA[addLoadEvent(function() {
+    // Load Azure Speech SDK
+    if (!window.SpeechSDK) {
+        const sdkScript = document.createElement("script");
+        sdkScript.src = "https://aka.ms/csspeech/jsbrowserpackageraw";
+        sdkScript.onload = () =&gt; {
+            console.log("✅ Azure Speech SDK Loaded");
+            initHeyFriday();
+        };
+        document.head.appendChild(sdkScript);
+    } else {
+        initHeyFriday();
+    }
+
+    function initHeyFriday() {
+        if (document.getElementById("heyFridayBtn")) return;
+
+        const micBtn = document.createElement("button");
+        micBtn.id = "heyFridayBtn";
+        micBtn.innerHTML = `&lt;span style="font-size:16px;"&gt;]]&gt;🎤&lt;![CDATA[&lt;/span&gt; &lt;b&gt;Hey ProximaOps&lt;/b&gt;`;
+        Object.assign(micBtn.style, {
+            position: "fixed",
+            bottom: "20px",
+            right: "20px",
+            zIndex: 9999,
+            padding: "12px 18px",
+            background: "#1f6feb",
+            color: "#fff",
+            fontWeight: "bold",
+            fontSize: "14px",
+            border: "none",
+            borderRadius: "14px",
+            boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
+            cursor: "pointer",
+            transition: "transform 0.2s ease"
+        });
+        micBtn.onmouseenter = () =&gt; micBtn.style.transform = "scale(1.05)";
+        micBtn.onmouseleave = () =&gt; micBtn.style.transform = "scale(1)";
+        micBtn.onclick = startVoiceAssistant;
+        document.body.appendChild(micBtn);
+
+        const overlay = document.createElement("div");
+        overlay.id = "voiceOverlay";
+        Object.assign(overlay.style, {
+            display: "none",
+            position: "fixed",
+            bottom: "80px",
+            right: "20px",
+            padding: "15px 20px",
+            background: "#fff",
+            border: "1px solid #ddd",
+            borderRadius: "12px",
+            zIndex: 9999,
+            fontSize: "14px",
+            minWidth: "280px",
+            boxShadow: "0 4px 16px rgba(0,0,0,0.15)",
+            fontFamily: "Segoe UI, sans-serif"
+        });
+
+        overlay.innerHTML = `
+            &lt;div id='voiceAnim' style='height:22px; display:flex; gap:6px; align-items:center; justify-content:center; margin-bottom:10px;'&gt;
+                &lt;div class='pulse-bar' style='animation-delay: 0s;'&gt;&lt;/div&gt;
+                &lt;div class='pulse-bar' style='animation-delay: 0.15s;'&gt;&lt;/div&gt;
+                &lt;div class='pulse-bar' style='animation-delay: 0.3s;'&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div id='transcriptText' style='color:#333;'&gt;Listening...&lt;/div&gt;
+        `;
+
+        const style = document.createElement("style");
+        style.innerHTML = `
+            .pulse-bar {
+                width: 6px;
+                height: 20px;
+                background: #1f6feb;
+                animation: pulseAnim 1s infinite ease-in-out;
+                border-radius: 4px;
+            }
+            @keyframes pulseAnim {
+                0% { height: 20%; opacity: 0.3 }
+                50% { height: 100%; opacity: 1 }
+                100% { height: 20%; opacity: 0.3 }
+            }
+        `;
+        document.head.appendChild(style);
+
+        document.body.appendChild(overlay);
+    }
+
+    function startVoiceAssistant() {
+        if (!window.SpeechSDK) return alert("Speech SDK not loaded");
+
+        const subscriptionKey = "4xnw7qUIoWdL7GlD1XK3NNwV2EOVnLZST1VISV8KO3tLRgiuEM11JQQJ99BEACGhslBXJ3w3AAAYACOGE6rh";
+        const serviceRegion = "centralindia";
+
+        const speechConfig = SpeechSDK.SpeechConfig.fromSubscription(subscriptionKey, serviceRegion);
+        speechConfig.speechRecognitionLanguage = "en-IN";
+        const audioConfig = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        const recognizer = new SpeechSDK.SpeechRecognizer(speechConfig, audioConfig);
+
+        const overlay = document.getElementById("voiceOverlay");
+        overlay.style.display = "block";
+        document.getElementById("transcriptText").innerText = "Listening...";
+
+        speak("Hey whats up");
+
+        recognizer.recognizing = (s, e) =&gt; {
+            document.getElementById("transcriptText").innerText = e.result.text;
+        };
+
+        recognizer.recognizeOnceAsync(result =&gt; {
+            overlay.style.display = "none";
+            recognizer.close();
+
+            const spokenText = result.text;
+            document.getElementById("transcriptText").innerText = spokenText;
+
+            if (!spokenText || spokenText.trim() === "") {
+                speak("I didn't catch that. Try again.");
+                return;
+            }
+
+            sendToOpenAI(spokenText);
+        }, err =&gt; {
+            overlay.style.display = "none";
+            console.error(err);
+            recognizer.close();
+            speak("Sorry, voice recognition failed.");
+        });
+    }
+
+    function sendToOpenAI(prompt) {
+        const endpoint = "https://rram-mav2w1aw-swedencentral.cognitiveservices.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview";
+        const key = "2WfUbRbYkRbF3e0QrzXsEYe641eTXXfyUOey1JI3fmH1HpDNeDvKJQQJ99BEACfhMk5XJ3w3AAAAACOGBUug";
+        const userId = g_user.userID;
+
+        const body = {
+            messages: [{
+                role: "system",
+                content: `You are a ServiceNow voice assistant. Respond ONLY in this JSON format: {"actions":[{"type":"update","field":"short_description","value":"..."},{ "type": "summarize_attachments", "table": "incident", "record_id": "abc123" },{"type":"update","field":"description","value":"..."},{"type":"update","field":"state","value":"In Progress"},{"type":"update","field":"assigned_to","value":"me"},{"type":"update","field":"blocked","value":true},{"type":"update","field":"blocked_reason","value":"..."}]} Rules: - If the user says "block the story", set blocked = true. - If a reason is mentioned, populate blocked_reason. - If user says "assign to me", convert "me" to user ID: ${userId}. - Use ServiceNow-compatible values. No explanations.- Use ServiceNow-compatible values.- No explanations. Just JSON.Note: The "field" values can be any valid field name. The above are examples only. Just JSON.`
+            }, {
+                role: "user",
+                content: prompt
+            }],
+            temperature: 0.2,
+            max_tokens: 800
+        };
+
+        fetch(endpoint, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "api-key": key
+                },
+                body: JSON.stringify(body)
+            })
+            .then(res =&gt; res.json())
+            .then(data =&gt; {
+                const reply = data.choices[0].message.content;
+                try {
+                    const parsed = JSON.parse(reply);
+                    if (!parsed.actions) throw new Error("No actions found");
+
+                    for (let a of parsed.actions) {
+                        if (a.type === "update" || a.type === "block") {
+                            trySetValue(a.field, a.value);
+                            continue;
+                        }
+                        if (a.type === "navigate") {
+                            window.location.href = `/${a.target}`;
+                            continue;
+                        }
+                        if (a.type === "summarize_attachments") {
+                            summarize();
+                            continue;
+                        }
+                    }
+
+                } catch (e) {
+                    speak("Sorry, I couldn't understand the instruction.");
+                    console.error("Invalid response from GPT:", e);
+                }
+            })
+            .catch(err =&gt; {
+                speak("Failed to connect to GPT.");
+                console.error("Fetch failed:", err);
+            });
+    }
+
+
+    let updateQueue = [];
+
+    function trySetValue(field, value) {
+        if (typeof g_form === "undefined" || !g_form.getTableName()) {
+            speak(`You're not on a form. Cannot update '${field}'.`);
+            return;
+        }
+
+        const element = g_form.getGlideUIElement(field);
+        if (!element) {
+            if (field === "summarize_attachments") return; // Ignore fake field
+            speak(`Field '${field}' not found.`);
+            return;
+        }
+
+        if (value?.toLowerCase?.() === "me" &amp;&amp; element.type === "reference" &amp;&amp; element.reference === "sys_user") {
+            value = g_user.userID || null;
+            if (!value) return speak("User info unavailable.");
+        }
+
+        if (element.type === "choice") {
+            const select = g_form.getControl(field);
+            value = getChoiceValue(select, value);
+            if (!value) return speak(`Choice '${value}' not valid.`);
+        }
+
+        // Boolean handling
+        if (element.type === "boolean") {
+            value = value === true || value === "true" || value === "yes" ? "true" : "false";
+        }
+
+        // Queue the field update
+        updateQueue.push({
+            field,
+            value
+        });
+
+        // If we're setting `blocked`, delay and then set the rest
+        if (field === "blocked" &amp;&amp; value === "true") {
+            g_form.setValue(field, value);
+            setTimeout(() =&gt; {
+                updateQueue.forEach(item =&gt; {
+                    if (item.field !== "blocked") g_form.setValue(item.field, item.value);
+                });
+                g_form.save(() =&gt; speak("Saved with block reason."), () =&gt; speak("Save failed."));
+                updateQueue = [];
+            }, 500); // wait for UI policy to kick in
+        } else if (field !== "blocked") {
+            g_form.setValue(field, value);
+        }
+
+        if (field !== "blocked") {
+            speak(`Updated ${field} ${value === g_user.userID ? "you" : value}`);
+            g_form.save(() =&gt; speak("Record saved."), () =&gt; speak("Save failed."));
+        }
+    }
+
+
+
+    function getChoiceValue(field, label) {
+        const select = g_form.getControl(field);
+        if (!select) return null;
+
+        label = label.toLowerCase();
+        for (let opt of select.options) {
+            if (opt.text.toLowerCase() === label || opt.value.toLowerCase() === label) {
+                return opt.value;
+            }
+        }
+        return null;
+    }
+
+
+
+
+    function speak(text) {
+        const speechConfig = SpeechSDK.SpeechConfig.fromSubscription("4xnw7qUIoWdL7GlD1XK3NNwV2EOVnLZST1VISV8KO3tLRgiuEM11JQQJ99BEACGhslBXJ3w3AAAYACOGE6rh", "centralindia");
+        speechConfig.speechSynthesisVoiceName = "en-IN-NeerjaNeural";
+        const audioConfig = SpeechSDK.AudioConfig.fromDefaultSpeakerOutput();
+        const synthesizer = new SpeechSDK.SpeechSynthesizer(speechConfig, audioConfig);
+
+        synthesizer.speakTextAsync(text,
+            () =&gt; synthesizer.close(),
+            err =&gt; {
+                console.error("TTS failed", err);
+                synthesizer.close();
+            });
+    }
+
+    // function summarize() {
+    //     const table = g_form.getTableName();
+    //     const sys_id = g_form.getUniqueValue();
+    //     fetch("/api/1090109/ai_summarizer/summarize?sys_id=" + sys_id + "&amp;table=" + table, {
+    //             method: "GET",
+    //             headers: {
+    //                 Accept: "application/json"
+    //             }
+    //         })
+    //         .then(res =&gt; res.json())
+    //         .then(data =&gt; {
+    //             alert("]]&gt;📄&lt;![CDATA[ Summary:\n" + data.result.summary);
+    //             speak(data.result.summary);
+    //         })
+    //         .catch(err =&gt; {
+    //             console.error(err);
+    //             speak("Failed to summarize attachments.");
+    //         });
+    // }
+
+    function summarize() {
+        const table = g_form.getTableName();
+        const sys_id = g_form.getUniqueValue();
+
+        showSummaryPopup("Generating summary...");
+
+        fetch("/api/1090109/ai_summarizer/summarize?sys_id=" + sys_id + "&amp;table=" + table, {
+                method: "GET",
+                headers: {
+                    Accept: "application/json"
+                }
+            })
+            .then(res =&gt; res.json())
+            .then(data =&gt; {
+                const summary = data.result.summary || "No summary available.";
+                showSummaryPopup(summary);
+                speak(summary);
+            })
+            .catch(err =&gt; {
+                console.error(err);
+                updateSummaryPopup("Failed to summarize attachments.");
+                speak("Failed to summarize attachments.");
+            });
+    }
+
+    function showSummaryPopup(summaryText) {
+        let popup = document.getElementById("summaryPopup");
+        if (!popup) {
+            popup = document.createElement("div");
+            popup.id = "summaryPopup";
+            Object.assign(popup.style, {
+                position: "fixed",
+                bottom: "80px",
+                right: "20px",
+                background: "#fff",
+                color: "#000",
+                border: "1px solid #ccc",
+                borderRadius: "12px",
+                padding: "15px",
+                width: "500px",
+                lineHeight: "1.6",
+                whiteSpace: "pre-wrap",
+                wordBreak: "break-word",
+                zIndex: 9999,
+                fontSize: "14px",
+                boxShadow: "0 4px 16px rgba(0,0,0,0.2)",
+                fontFamily: "Segoe UI, sans-serif",
+                maxHeight: "80vh",
+                overflowY: "auto"
+            });
+
+            const closeBtn = document.createElement("button");
+            closeBtn.innerText = "✖";
+            Object.assign(closeBtn.style, {
+                position: "absolute",
+                top: "5px",
+                right: "10px",
+                border: "none",
+                background: "transparent",
+                fontSize: "16px",
+                cursor: "pointer",
+                color: "#888"
+            });
+            closeBtn.onclick = () =&gt; popup.remove();
+            popup.appendChild(closeBtn);
+
+            const content = document.createElement("div");
+            content.id = "summaryContent";
+            content.style.marginTop = "20px";
+            popup.appendChild(content);
+
+            document.body.appendChild(popup);
+        }
+
+        const contentDiv = document.getElementById("summaryContent");
+
+    
+
+        contentDiv.innerText = summaryText;
+    }
+
+
+
+
+
+
+
+});]]&gt;&lt;/script&gt;&lt;script_name/&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-19 11:58:53&lt;/sys_created_on&gt;&lt;sys_id&gt;9d6ed9ee83a56ad442e710c5eeaad3c7&lt;/sys_id&gt;&lt;sys_mod_count&gt;79&lt;/sys_mod_count&gt;&lt;sys_name&gt;HeyFridayVoiceAssistant&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_9d6ed9ee83a56ad442e710c5eeaad3c7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 13:57:58&lt;/sys_updated_on&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>699635135</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>d5ac465383a12e1842e710c5eeaad3a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f505f3db0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table/>
+<target_name>HeyFridayVoiceAssistant</target_name>
+<type>UI Script</type>
+<update_domain>global</update_domain>
+<update_guid>3499c65797212e18dbfd11fa45618127</update_guid>
+<update_guid_history>3499c65797212e18dbfd11fa45618127:699635135,95d0dc9bbbe16a1834bd6042780cef60:699635135,d396449744ad2a189d6d4805171ef461:-198736994,93668c9bc5ad2a184fed75cf430af67f:1815202562,4936005739ed2a18134f15666e4da400:1470449871,d60648d3ceed2a18c1b778624e4e6df0:-1602844775,a8b87bc392a92a185751906ff5a781d9:-662654415,08d07fc7b7e52a1876ba159b8db1f6e5:-1209227055,f870378beee52a18a3a200c467f7f44a:-1963835676,fc20bbc721e52a18cae12e92e057a89b:-1375905522,4b5f6b8f78a52a18a044d044390fed46:1295185062,14fe6b8f32a52a18b492fb4b3b7dce3c:1877399938,191de3cfa0652a18df8ff5abc924df39:458657867,408caf4b6b652a18042dfc08ddea960e:-709765355,92aa2b0bc1252a187f832cf1985b1b52:1014342851,19f9638726252a18af5f9e9ea79b1726:-267468022,0a282703d1252a18282a93fb409e3c25:-2145240368,d387a38f6ae12a18be482fb64eeb3a2b:70047152,df37ef8fe0e12a1863a91ae30e74426e:-1569994966,9b852b0f43e12a18d6923a2a478cbf21:-1921641895,01af5bc365a12a188c06d2a36b22684a:1853673229,6b0fd78bab612a189e09315ebc349967:-1134984040,b1fb5b07e1212a18dc7c90b84489610b:1431808439,a8f41747dfade618de6f7667f4e315fa:-1898721775,203157cfd16de6187075849745b5e302:265037179,91fd76cf8e25e618c025c7ee64b03559:-279655042,6eea7247b125e618796ce22052d7dcc4:1557643194,44a9fa836e25e618bf408ca818a0fcc8:413370585,f1d8be4b63e1e618383f4e2217a10acc:887799008,98867ec73aa1e6185a5aeaa23f8d897c:883475871,72dd5e83bf69a6187acaae35a623d097:818982883,a3ad4a8b12e1a61882b768e7b29b5530:1309118559,a13d4a8b55e1a618db0d7655bace5427:-133240264,13ec820b8ce1a618b14b88682d91657b:1597642948,008f55c323e16618b6793480ab4f685e:-713728988,13133ff66c2da21825968c4cdaa364f3:-75377554,9ce23772d52da218aab38957e542f93a:2005584869,fa2d27fe2569a2183f31897b966bc00f:549905594,a6d7a7367a29a218611f9dfa54981ebe:-63090731,13e7e972d925eed48aa17470d4f242fc:46475734,25c0ed7e8ba1eed4231e0d2b31a88866:1771878661,2640ed36bda1eed453cb90b355c2af56:-1276532000,a89f5dbea761eed413a5338abbe65516:2004320006,ce7d95f63861eed4fd10788be553ceb3:-1674598319,b2cb99babe21eed44838f205f81413a3:-819564747,3fea15b6fa21eed46a7e1a5281bd5215:1375949092,c67a15b6e721eed487f6415a77aa710f:-858444891,70285d724aadaed41ae290a3a6dc9993:-1772348402,c810d87626256ed42cba255bc1975269:-858444891,a6afc83ee1e16ed406466dc7c76b9481:974663554,08fe443ed7e16ed49d8761911da1e8e1:2000463003,eced443e6ce16ed455cc8c25745fefd7:855614811,046dccbe07a16ed4e7899f468467c66a:1357612838,d7aa083ade616ed4d6e48b7fdeb2dd3d:-179335870,5169043a9b616ed43590b7d109712e14:-1330184746,86190432f5616ed46a9481e2ca094af7:-781206081,1b9800720d616ed467a7d84985a0c3ce:1726636985,188780320c616ed443174ec468c4fe8f:-955699472,5e9180b68c216ed43e6e67f286955243:373810786,7ca04cb2db216ed41b7a314a34525cef:-601616764,207e3ba291216ed40892fbc1e9a1435e:-702279872,671e77aa10ed2ed4f85ec98013bb79ef:-1742988967,8fdc3fa2dced2ed47316d56ddc02efa0:952197447,868cb3e2c7ed2ed433d3d43f062ba16e:-1103384792,4a9bf7ea88ad2ed4890da1ff9f1f7721:1058235214,ffda3be236ad2ed471205557fb0944e5:806136751,6c4af76a076d2ed4a8c17c32fb49073d:-361970562,cb39336a4a6d2ed437e4fa7bee96702e:-467377866,e8d7776e1b2d2ed4f2ed89d8492c8c85:286587715,4a57b7265a2d2ed4c7b15c14a340d0fc:428433735,14502a6ad96daad4dca3b111dd3eee64:1593265539,2a10222a636daad4a23694a615261f64:586743491,116e522e8c2daad45c62a03a0e8c8f44:1700208310,9b1c1a6a28e9aad43e5ed1b847fefeab:662894308,75c692e6ef69aad499798a5bb9259090:671267947,8e769ea6bd69aad48aa6728e77088a7e:1453982786,2336162a8d69aad47a428acc483b9eb8:-592124758,bf1692e6c569aad43687371277b0d520:730878742,376c3d6230e1aad4edace0ad6afe8b42:1881325827,4e5879aa8261aad4ea6dfc57c287d04a:1016998417,5962ede200296ad4d60c8d018c20fa97:424179763</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_240afd4383a9661842e710c5eeaad3ec</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.CustomAttachmentReader&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;CustomAttachmentReader&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var CustomAttachmentReader = Class.create();
+CustomAttachmentReader.prototype = {
+    initialize: function() {},
+
+    getAttachmentText: function(attachmentSysId) {
+        var sa = new GlideSysAttachment();
+        var attachmentGR = new GlideRecord('sys_attachment');
+        if (!attachmentGR.get(attachmentSysId)) {
+            gs.error("Attachment not found with sys_id: " + attachmentSysId);
+            return;
+        }
+        try {
+            var byteArray = sa.getBytes(attachmentGR); // get the attachment bytes
+            if (!byteArray) {
+                gs.error("Failed to get bytes for attachment " + attachmentSysId);
+                return;
+            }
+
+            var StringClass = Packages.java.lang.String;
+            var fileContent = new StringClass(byteArray, "UTF-8");
+            gs.info("Attachment content:\n" + fileContent);
+			return fileContent;
+
+        } catch (e) {
+            gs.error("Error reading attachment: " + e.message);
+        }
+
+    },
+
+    type: 'CustomAttachmentReader'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 02:59:52&lt;/sys_created_on&gt;&lt;sys_id&gt;240afd4383a9661842e710c5eeaad3ec&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;CustomAttachmentReader&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_240afd4383a9661842e710c5eeaad3ec&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 03:42:35&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;240afd4383a9661842e710c5eeaad3ec&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 02:59:52&lt;/sys_created_on&gt;&lt;sys_id&gt;953a750b836d661842e710c5eeaad3f4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 02:59:52&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1406387852</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>d9ac465383a12e1842e710c5eeaad39f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f506854b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table/>
+<target_name>CustomAttachmentReader</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>bdb9c65713212e185d79337ffaa3372c</update_guid>
+<update_guid_history>bdb9c65713212e185d79337ffaa3372c:1406387852,c7f30e831eed66181c2be138a9deb970:1406387852,a50cb9cb98ad66188c58e39979acf5bd:-539105938,096bfd83b3ad6618b0a56543e27a547c:132072225,fc3bfd0f2e6d66180f4288f1f6386832:-751027493,3d3af1036bad6618bec6824956b8007d:1441579575</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_7be5c2fa8365221842e710c5eeaad356</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>public</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description>Proxima Ops </description><name>Proxima Ops </name><oauth2_profile/><protocol_name/><rest_endpoint>https://15ca-61-12-33-162.ngrok-free.app</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>Rakhesh.Bowtham</sys_created_by><sys_created_on>2025-05-20 09:13:28</sys_created_on><sys_id>7be5c2fa8365221842e710c5eeaad356</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Proxima Ops </sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_7be5c2fa8365221842e710c5eeaad356</sys_update_name><sys_updated_by>Rakhesh.Bowtham</sys_updated_by><sys_updated_on>2025-05-21 05:32:56</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>1354699559</payload_hash>
+<remote_update_set display_value="CDW_CNG_ProximaOps_v1">91ac0e5783612e1842e710c5eeaad339</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-21 22:58:55</sys_created_on>
+<sys_id>ddac465383a12e1842e710c5eeaad39e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196f508ce350000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-21 22:58:55</sys_updated_on>
+<table/>
+<target_name>Proxima Ops </target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>224a429f4d212e188f467957816ac975</update_guid>
+<update_guid_history>224a429f4d212e188f467957816ac975:1354699559,a33d9e0fcc29a618263d93c93dcc9459:1354699559,182642fe1d65221836abd48bda1a6580:836723626</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
