@@ -118,5 +118,6 @@ async def health():
 # Run the application (for development; in production, use Uvicorn directly)
 if __name__ == "__main__":
     import uvicorn
-    logger.info("Starting FastAPI application")
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    port = int(os.environ.get("PORT", 8000))
+    logger.info(f"Starting FastAPI application on port {port}")
+    uvicorn.run(app, host="0.0.0.0", port=port)
