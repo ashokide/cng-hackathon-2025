@@ -10,16 +10,53 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
-# Pre-download NLTK data to local nltk_data directory if not present
-try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt', download_dir='./nltk_data')
-try:
-    nltk.data.find('corpora/wordnet')
-except LookupError:
-    nltk.download('wordnet', download_dir='./nltk_data')
-nltk.data.path.append('./nltk_data')
+def setup_nltk_resources():
+    """Download and setup required NLTK resources"""
+    import ssl
+    
+    # Handle SSL issues that might occur during download
+    try:
+        _create_unverified_https_context = ssl._create_unverified_context
+    except AttributeError:
+        pass
+    else:
+        ssl._create_default_https_context = _create_unverified_https_context
+    
+    # Create nltk_data directory if it doesn't exist
+    os.makedirs('./nltk_data', exist_ok=True)
+    
+    # Set NLTK data path
+    nltk.data.path.append('./nltk_data')
+    
+    # Download required NLTK resources
+    resources = [
+        ('tokenizers/punkt_tab', 'punkt_tab'),
+        ('tokenizers/punkt', 'punkt'),
+        ('corpora/wordnet', 'wordnet')
+    ]
+    
+    for resource_path, resource_name in resources:
+        try:
+            nltk.data.find(resource_path)
+            logger.info(f"NLTK resource {resource_name} already available")
+        except LookupError:
+            try:
+                nltk.download(resource_name, download_dir='./nltk_data', quiet=True)
+                logger.info(f"Successfully downloaded NLTK resource: {resource_name}")
+            except Exception as e:
+                logger.warning(f"Failed to download NLTK resource {resource_name}: {e}")
+    
+    # Test tokenization to ensure everything works
+    try:
+        test_tokens = word_tokenize("This is a test sentence.")
+        logger.info("NLTK tokenization test successful")
+        return True
+    except Exception as e:
+        logger.error(f"NLTK tokenization test failed: {e}")
+        return False
+
+# Setup NLTK resources
+setup_nltk_resources()
 
 # Initialize FastAPI app
 app = FastAPI()
@@ -68,13 +105,21 @@ class PredictionInput(BaseModel):
 
 # Define text cleaning function (aligned with training script)
 def clean_text(text: str) -> str:
-    text = re.sub(r'http\S+', '', text)  # Remove URLs
-    text = re.sub(r'[^\w\s]', '', text)  # Remove special characters
-    text = re.sub(r'\d+', '', text)  # Remove numbers
-    text = text.lower().strip()
-    tokens = word_tokenize(text)
-    tokens = [lemmatizer.lemmatize(token) for token in tokens]
-    return ' '.join(tokens)
+    try:
+        text = re.sub(r'http\S+', '', text)  # Remove URLs
+        text = re.sub(r'[^\w\s]', '', text)  # Remove special characters
+        text = re.sub(r'\d+', '', text)  # Remove numbers
+        text = text.lower().strip()
+        tokens = word_tokenize(text)
+        tokens = [lemmatizer.lemmatize(token) for token in tokens]
+        return ' '.join(tokens)
+    except Exception as e:
+        logger.error(f"Error in text cleaning: {str(e)}")
+        # Return cleaned text without tokenization as fallback
+        text = re.sub(r'http\S+', '', text)
+        text = re.sub(r'[^\w\s]', '', text)
+        text = re.sub(r'\d+', '', text)
+        return text.lower().strip()
 
 # Define prediction endpoint
 @app.post("/predict")
