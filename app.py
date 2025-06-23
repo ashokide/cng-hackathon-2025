@@ -10,9 +10,16 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
-# Download NLTK data
-nltk.download('punkt')
-nltk.download('wordnet')
+# Pre-download NLTK data to local nltk_data directory if not present
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt', download_dir='./nltk_data')
+try:
+    nltk.data.find('corpora/wordnet')
+except LookupError:
+    nltk.download('wordnet', download_dir='./nltk_data')
+nltk.data.path.append('./nltk_data')
 
 # Initialize FastAPI app
 app = FastAPI()
